@@ -1,0 +1,10 @@
+DESIGN IMPROVEMENTS FROM PHASE 1:
+- Used more abstract implementations of certain types, for example instantiation using List<T> instead of ArrayList<T>.
+- Gateway classes were combined to 2 main gateways (one for reading in data [ConferenceDataSaver], the other for saving
+  data to Data folder [ConferenceDataReceiver]).
+- There is now zero dependence between classes of the same layer in Use Case and Entity layers - this provides greater
+  encapsulation and more decoupling.
+- The inheritance model with User object has been improved.
+- The long method in the ProgramController class has been divided up into several controller classes, each detailing a
+  specific system in the program (MessageSystem and ScheduleSystem).
+

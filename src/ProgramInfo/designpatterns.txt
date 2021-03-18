@@ -1,0 +1,4 @@
+DESIGN PATTERNS USED:
+- Simple Factory design, in every GUI form has a display method which opens up that corresponding GUI form.
+- Dependency Injection, to send data from GUIController to UIPresenter and to send data from UIPresenter
+  to all GUI forms.

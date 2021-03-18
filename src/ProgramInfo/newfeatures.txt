@@ -1,0 +1,11 @@
+NEW FEATURES:
+- There are now three types of events: Party, Talk and Panel where Party has 0 speakers, Talk has 1 speaker
+  and Panel has multiple speakers - whenever a speaker is added the event type changes accordingly.
+- VIP users added as an extension of Attendee users.
+- Any organizer can cancel any event by inputting the event ID of the event to be cancelled.
+- Organizer can create any kind of user account.
+- Events have a capacity that can be set and changed anytime by organizers, and rooms now have corresponding
+  capacities that must also be taken into account.
+- Organizers can now get a printed PDF of the entire conference schedule.
+- User requests can be sent in to the organizer to check.
+- Implemented a GUI using Java Swing.
